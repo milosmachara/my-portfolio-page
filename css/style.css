@@ -66,17 +66,19 @@ header {
 .navbar ul {
   float: right;
   position: fixed;
-  margin-top: 10px;
+  margin-top: 13px;
   margin-left: 50%;
   list-style: none;
 }
 
 .navbar ul li a {
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   margin: 7px auto;
   padding: 20px 40px;
   color: #fff;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  opacity: 0.6;
 }
 
 .navbar a:hover {
