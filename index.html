@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="css/style.css" />
     <title>Miloš Machara</title>
     <link rel="stylesheet" href="others/grid.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-
+    <script src="lightbox-plus-jquery.min.js"></script>
   </head>
   <body>
     <header>
@@ -114,20 +115,18 @@ Pretože pre mňa IT nie je len práca – je to nová cesta, na ktorej sa kone�
         </div>
         <div class="certificates row">
           <ul class="photo-segment">
-            <li class="col span-1-of-2">
-              <img src="images/HTML-certifikate.jpg" alt="">
-            </li>
-            <li class="col span-1-of-2">
-              <img src="images/SQL-certifikate.jpg" alt="">
-            </li>
+            
+            <li class="col span-1-of-2"><a href="images/HTML-certifikate.jpg" data-lightbox="mygallery" data-title="HTML CSS JavaScript"><img src="images/HTML-certifikate.jpg" alt=""> </a> </li>
+ 
+            <li class="col span-1-of-2"><a href="images/SQL-certifikate.jpg" data-lightbox="mygallery" data-title="SQL"><img src="images/SQL-certifikate.jpg" alt=""></a></li>
+              
           </ul>
-           <ul class="photo-segment">
-            <li class="col span-1-of-2">
-              <img src="images/GIT-GitHub-certifikate.jpg" alt="">
-            </li>
-            <li class="col span-1-of-2">
-              <img src="images/Manual Testing-certifikate.jpg" alt="">
-            </li>
+           
+          <ul class="photo-segment">
+            <li class="col span-1-of-2"><a href="images/GIT-GitHub-certifikate.jpg" data-lightbox="mygallery" data-title="Git and GitHub"><img src="images/GIT-GitHub-certifikate.jpg" alt=""></a></li>
+              
+            <li class="col span-1-of-2"><a href="images/Manual Testing-certifikate.jpg" data-lightbox="mygallery" data-title="Manual Testing"><img src="images/Manual Testing-certifikate.jpg" alt=""></a> </li>
+              
           </ul>
 
         </div>
