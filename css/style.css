@@ -166,9 +166,7 @@ main {
     background-attachment: fixed;
     background-size: cover;
     height: 50vh;
-  
-   
- }
+   }
  .heading-skills {
   text-align: center;
   color: #fff;
@@ -176,7 +174,6 @@ main {
  .my-skills-row {
   color: #fff;
   margin-left: 20px;
-
  }
 .photo-skills {
   margin-top: 10px;
@@ -197,6 +194,17 @@ main {
    float: left;
   margin-left: 95px;
 }
+.photo-skills-GIT {
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+.photo-skills-GIT img {
+  width: 70px;
+   float: left;
+  margin-left: 95px;
+  border-radius: 30%;
+}
+ 
  
    
 
