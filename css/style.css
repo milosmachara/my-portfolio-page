@@ -163,20 +163,22 @@ main {
 
 
 /*****************Skills*****************/
-.skills-img {
+.skills {
    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(../images/pc.jpg);
     background-attachment: fixed;
-    background-size: cover;
-    height: 50vh;
-   }
- .heading-skills {
+    }
+
+ .heading-skills h1 {
   text-align: center;
   color: #fff;
-
+  
  }
  .my-skills-row {
-  color: #fff;
   margin-left: 20px;
+  display: flex;
+ }
+ .my-skills-row p {
+ color: #fff;
  }
 .photo-skills {
   margin-top: 10px;
@@ -194,7 +196,7 @@ main {
  
 .photo-skills-SQL img {
   width: 60px;
-   float: left;
+  float: left;
   margin-left: 100px;
 }
 .photo-skills-GIT {
@@ -212,13 +214,13 @@ main {
   margin-bottom: 60px;
 }
  .photo-skills-testing img {
-  width: 67px;
-   float: left;
+ width: 60px;
+  float: left;
   margin-left: 100px;
-  position: absolute;
-  top: 67.5%;
-  
 }
+  
+  
+
  
    
 
@@ -226,43 +228,63 @@ main {
 
 /* FOOTER - bežný blok (nie fixed/absolute) */
 .footer-page {
-  position: relative;
+   background: grey;
+    margin-top: 50px;
+    color: #fff;}
+    
+.social {
+    text-align: center;
+    margin: 10px;
+
+}
+
+.social p a:link,
+.social p a:visited {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 25px;
+    letter-spacing: 2px;
+    display: inline-block;
+    transition: transform 0.7s ease;
+    
+}
+
+.social p a:hover,
+.social p a:active {
+    color: black;
+}
+
+
+    
+
+.social p {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-text{
+    text-align: center;
+}
+
+  /*position: relative;
   background: rgba(0, 0, 0, 0.16);
   color:black;
-  padding: 20px 0;
-}
-.footer-inner {
+  padding: 20px 0;*/
+
+/*.footer-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-}
-.footer-text { 
-  text-align: right; 
-  font-size: 14px; 
-  opacity: 0.9; }
+}*/
 
 /************* sociálne ikony vľavo *************/
-.footer-page .social-buttons { 
-  display: flex; 
-  gap: 12px; 
-  align-items: center; 
-}
-.footer-page .social-buttons img {
-  width: 22px;
-  height: 22px;
-  display: block;
-  border-radius: 6px;
-  opacity: 0.9;
-  transition: transform .25s ease, opacity .25s ease;
-}
-.footer-page .social-buttons img:hover { 
-  transform: scale(1.15); 
-  opacity: 1; 
-}
+
+
+
 
 /***************** RESPONSIVITY ****************/
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .welcome .name h1 { 
     font-size: 42px; 
   }
@@ -271,15 +293,9 @@ main {
      right: 20px; 
      top: 140px; 
     }
-  .footer-inner { 
-    flex-direction: column; 
-    text-align: center; 
-    gap: 12px; 
-  }
-  .footer-text { 
-    text-align: center;
-   }
+
   .pc-img { 
     flex-direction: column; 
   }
+
 }
