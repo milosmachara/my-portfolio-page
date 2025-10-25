@@ -129,7 +129,7 @@ header {
 
 /********** MAIN (aby footer sedel pod obsahom) *****************/
 main {
-  background-color: #fff;
+  background-color:#f6f4e1;
   position:relative;
   z-index:1;
   
@@ -179,7 +179,7 @@ main {
     background-size: cover;
     }
 
- .heading-skills h1 {
+ .heading-main-skills {
   opacity: 0.5;
   text-align: center;
   color: #fff;
@@ -238,6 +238,13 @@ text-align: center;
  float: none; 
  opacity: 0.5;
 }
+
+/********************* CERTIFIKATES*****************/
+.heading-main-certifikates {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
   
   
 
