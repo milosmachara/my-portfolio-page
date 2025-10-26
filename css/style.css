@@ -127,13 +127,15 @@ header {
   overflow: hidden;
   border-radius: 6px;
   box-shadow: 0 8px 18px rgba(0,0,0,0.6);
+  padding-bottom: 20px;
 }
 .profile-photo img {
   display: block;
   width: 100%;
   height: auto;
-  -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 70%);
+ -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 70%);
   mask-image: radial-gradient(circle, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 70%);
+  
 }
 
 /********** MAIN (aby footer sedel pod obsahom) *****************/
@@ -301,7 +303,6 @@ text-align: center;
   padding: 25px 0 20px 0;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  font-weight: 20px;
   color: #fff;
 }
 .photo-segment li {
