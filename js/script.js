@@ -20,4 +20,10 @@ const appearOnScroll = new IntersectionObserver((entries, observer) => {
 
 faders.forEach(fader => appearOnScroll.observe(fader));
 
+ 
+  // Po načítaní stránky vždy scroll na vrch
+window.onload = function() {
+    window.scrollTo(0, 0);
+};
+
 
