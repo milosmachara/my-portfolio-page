@@ -372,6 +372,10 @@ main {
   text-align: center;
   font-family: "Poppins", sans-serif;
 }
+.contact {
+  color: #fff;
+  text-decoration: wavy;
+}
 
 /***************** RESPONSIVITY ****************/
 @media (max-width: 768px) {
